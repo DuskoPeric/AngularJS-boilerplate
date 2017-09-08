@@ -11,26 +11,27 @@ Simple AngularJS Boilerplate with SASS support and Gulp watch/build tasks
 
 ## Folder structure
 
-app
-	-services
-	-app.config.js
-	-app.js
-bower_components
-json
-node_modules
-style
-	-style.css
-	-style.scss
-css
-	-style.min.css
-js
-	-nonangularlibs.js
-	-angularlibs.js
-	-appcomponents.js	
-bower.json
-gulpfile.json
-index.html
-package.json
+- app
+	- - services
+	- - app.config.js
+	- - app.js
+- bower_components
+- json
+- node_modules
+- style
+	- - style.css
+	- - style.scss
+- css
+	- - style.min.css
+- js
+	- - nonangularlibs.js
+	- - angularlibs.js
+	- - appcomponents.js	
+- bower.json
+- gulpfile.json
+- index.html
+- package.json
+
 
 
 ## 1. Setup (Install gulp and bower components)
