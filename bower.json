@@ -1,0 +1,25 @@
+{
+  "name": "App Boilerplate by DuskoPeric",
+  "version": "1.0.0",
+  "authors": [
+    "Dusko Peric"
+  ],
+  "description": "Simple App Boilerplate",
+  "main": "app/app.js",
+  "keywords": [
+    "angularjs"
+  ],
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.5.9",
+    "angular-route": "~1.5.9",
+	"bootstrap":"latest"
+	"moment":"latest",
+	"angular-moment":"latest"
+  }
+}

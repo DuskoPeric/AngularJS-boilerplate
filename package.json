@@ -1,0 +1,23 @@
+{
+  "name": "App Boilerplate by DuskoPeric",
+  "version": "1.0.0",
+  "description": "Simple app Boilerplate",
+  "main": "app/app.js",
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "keywords": [
+    "AngularJS"
+  ],
+  "author": "Dusko Peric",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.2",
+    "run-sequence": "^2.1.0"
+  }
+}

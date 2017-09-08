@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" ng-csp="" ng-app="boilerplateApp">
+	<head>
+		<base href="/">
+		<meta charset="utf-8">
+		<title>Gulp AngularJs 1.5  Boilerplate </title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!-- build:css css/style.min.css -->
+		<link rel="stylesheet" type="text/css" href="style/style.css" />
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+		<!-- endbuild -->
+	</head>
+	<body class="main-wrapper">
+		<div ng-view></div>
+	</body>
+	<!-- build:js js/nonangularlibs.js -->
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!-- endbuild -->
+	<!-- build:js js/angularlibs.js -->
+	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+	<script type="text/javascript" src="bower_components/moment/min/moment.min.js"></script>
+	<script type="text/javascript" src="bower_components/angular-moment/angular-moment.js"></script>
+	<!-- endbuild -->
+	<!-- build:js js/appcomponents.js -->
+	<script type="text/javascript" src="app/app.js"></script>
+	<script type="text/javascript" src="app/app.config.js"></script>
+	<!-- endbuild -->
+</html>
